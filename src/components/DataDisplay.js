@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/globalStyle.css'
 import DataDisplayCard from './DataDisplayCard';
 import { useSelector } from 'react-redux';
-
+    
 const DataDisplay = () => {
     const data = useSelector((state) => state.bookings);
     return (
